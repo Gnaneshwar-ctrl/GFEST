@@ -22,7 +22,7 @@ python gfest/run_gfest.py --csv examples/michaelis_menten.csv --y y   --x x --re
 
 3) Run GFEST on 2nd‑order kinetics (A + B → …) with OLS selection:
 ```bash
-python gfest/run_gfest.py --csv examples/second_order.csv --y y   --x A B --reg ols --pop 40 --gens 25 --terms 12 --seed 0
+python gfest/run_gfest.py --csv examples/second_order.csv --y y   --x A B --reg ols --pop 40 --gens 25 --terms 2 --seed 0
 ```
 
 Outputs (model, metrics, plots) land in `results/`.
